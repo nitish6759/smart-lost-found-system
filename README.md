@@ -32,11 +32,3 @@ This project is built as a lightweight, lightning-fast Single Page Application (
 * **Icons:** [FontAwesome 6.5.0](https://fontawesome.com/)
 
 ---
-
-## 🚀 Getting Started
-
-Since this is a front-end prototype built with vanilla web technologies, setup is completely frictionless.
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/yourusername/smart-lost-and-found.git](https://github.com/yourusername/smart-lost-and-found.git)
