@@ -810,7 +810,7 @@
   <div class="hero-inner">
     <!-- Text -->
     <div class="hero-text">
-      <div class="hero-eyebrow"><i class="fas fa-bolt"></i> CSS Hacks · NIT Silchar 2024</div>
+      <div class="hero-eyebrow"><i class="fas fa-bolt"></i> CSS Hacks · NIT Silchar 2026</div>
       <h1 class="hero-h1">Find What You<br><span class="grad">Lost, Faster.</span></h1>
       <p class="hero-sub">AI-powered smart lost &amp; found system for campus — matches items intelligently, so nothing stays lost for long.</p>
       <div class="hero-btns">
@@ -997,14 +997,27 @@
             <label>Location *</label>
             <select id="itemLoc">
               <option value="">Select location</option>
-              <option>Academic Block A</option>
-              <option>Academic Block B</option>
-              <option>Library</option>
-              <option>Cafeteria</option>
-              <option>Hostel Area</option>
-              <option>Sports Ground</option>
+              <option>Sport Complex</option>
+              <option>Central Library</option>
+              <option>SAC Building</option>
+              <option>NEW Gallery</option>
+              <option>OLD Gallery</option>
+              <option>BH-1</option>
+              <option>BH-2</option>
+              <option>BH-3</option>
+              <option>BH-4</option>
+              <option>BH-5</option>
+              <option>BH-6</option>
+              <option>BH-7</option>
+              <option>BH-8</option>
+              <option>BH-9</option>
+              <option>GH-1</option>
+              <option>GH-2</option>
+              <option>GH-3</option>
               <option>Admin Block</option>
-              <option>Auditorium</option>
+              <option>CC-Building</option>
+              <option>T-POINT</option>
+              <option>OTHER</option>
             </select>
           </div>
           <div class="form-group">
@@ -1074,12 +1087,27 @@
       </select>
       <select class="filter-select" id="locFilter" onchange="filterItems()">
         <option value="">All Locations</option>
-        <option>Academic Block A</option>
-        <option>Academic Block B</option>
-        <option>Library</option>
-        <option>Cafeteria</option>
-        <option>Hostel Area</option>
-        <option>Sports Ground</option>
+        <option>Sport Complex</option>
+        <option>Central Library</option>
+        <option>SAC Building</option>
+        <option>NEW Gallery</option>
+        <option>OLD Gallery</option>
+        <option>BH-1</option>
+        <option>BH-2</option>
+        <option>BH-3</option>
+        <option>BH-4</option>
+        <option>BH-5</option>
+        <option>BH-6</option>
+        <option>BH-7</option>
+        <option>BH-8</option>
+        <option>BH-9</option>
+        <option>GH-1</option>
+        <option>GH-2</option>
+        <option>GH-3</option>
+        <option>Admin Block</option>
+        <option>CC-Building</option>
+        <option>T-POINT</option>
+        <option>OTHER</option>
       </select>
     </div>
 
@@ -1361,7 +1389,7 @@
       <div class="footer-col">
         <h5>Project Info</h5>
         <ul>
-          <li><a href="#">CSS Hacks 2024</a></li>
+          <li><a href="#">CSS Hacks 2026</a></li>
           <li><a href="#">NIT Silchar</a></li>
           <li><a href="#">Nitish Kumar</a></li>
           <li><a href="#">Scholar ID: 25CS10003</a></li>
@@ -1418,14 +1446,14 @@
 <script>
 // ─── DATA ────────────────────────────────────────────────────────────────────
 const ITEMS = [
-  { id:1, title:'Blue Wildcraft Backpack', desc:'Navy blue backpack with laptop compartment, contains charger and notes.', loc:'Library', cat:'Accessories', date:'2024-11-10', status:'Found', emoji:'🎒', match:94 },
-  { id:2, title:'MacBook Charger 61W', desc:'White Apple MagSafe charger with frayed cable near connector.', loc:'Academic Block A', cat:'Electronics', date:'2024-11-09', status:'Lost', emoji:'🔌', match:88 },
-  { id:3, title:'NIT Silchar ID Card', desc:'Student ID card — Ananya Das, Roll 22EE20014.', loc:'Cafeteria', cat:'ID / Cards', date:'2024-11-08', status:'Found', emoji:'🪪', match:97 },
-  { id:4, title:'Sony WH-1000XM5 Headphones', desc:'Black over-ear noise cancelling headphones in a grey case.', loc:'Library', cat:'Electronics', date:'2024-11-07', status:'Found', emoji:'🎧', match:82 },
-  { id:5, title:'Room Key — H7 Block', desc:'Brass key with red ring tag, number 312 engraved.', loc:'Sports Ground', cat:'Keys', date:'2024-11-06', status:'Found', emoji:'🔑', match:91 },
-  { id:6, title:'Engineering Maths Textbook', desc:'CBSE edition with yellow highlighter marks, name written on cover.', loc:'Academic Block B', cat:'Books / Notes', date:'2024-11-05', status:'Lost', emoji:'📘', match:75 },
-  { id:7, title:'Black Wallet', desc:'Slim leather wallet with cash ~₹500 and two cards inside.', loc:'Hostel Area', cat:'Accessories', date:'2024-11-04', status:'Lost', emoji:'👛', match:79 },
-  { id:8, title:'Bottle — Milton Thermosteel', desc:'Dark green 1L insulated bottle with sticker of a mountain on it.', loc:'Academic Block A', cat:'Other', date:'2024-11-03', status:'Found', emoji:'🍶', match:86 },
+  { id:1, title:'Blue Wildcraft Backpack', desc:'Navy blue backpack with laptop compartment, contains charger and notes.', loc:'Library', cat:'Accessories', date:'2026-01-10', status:'Found', emoji:'🎒', match:94 },
+  { id:2, title:'MacBook Charger 61W', desc:'White Apple MagSafe charger with frayed cable near connector.', loc:'Academic Block ', cat:'Electronics', date:'2026-04-15', status:'Lost', emoji:'🔌', match:88 },
+  { id:3, title:'NIT Silchar ID Card', desc:'Student ID card — Nitish Kumar, Roll 25CS10003.', loc:'Central Library', cat:'ID / Cards', date:'2026-04-16', status:'Found', emoji:'🪪', match:97 },
+  { id:4, title:'Sony WH-1000XM5 Headphones', desc:'Black over-ear noise cancelling headphones in a grey case.', loc:'Sport Complex', cat:'Electronics', date:'2026-03-25', status:'Found', emoji:'🎧', match:82 },
+  { id:5, title:'Room Key ', desc:'Brass key with red ring tag, number 312 engraved.', loc:'Sports Complex', cat:'Keys', date:'2026-03-23', status:'Found', emoji:'🔑', match:91 },
+  { id:6, title:'Engineering Maths Textbook', desc:'Yellow highlighter marks, name written on cover.', loc:'NEW Gallery', cat:'Books / Notes', date:'2026-02-05', status:'Lost', emoji:'📘', match:75 },
+  { id:7, title:'Black Wallet', desc:'Slim leather wallet with cash ~₹500 and two cards inside.', loc:'Hostel Area', cat:'Accessories', date:'2026-04-16', status:'Lost', emoji:'👛', match:79 },
+  { id:8, title:'Bottle — Milton Thermosteel', desc:'Dark green 1L insulated bottle with sticker of a mountain on it.', loc:'OLD Gallery', cat:'Other', date:'2026-03-25', status:'Found', emoji:'🍶', match:86 },
 ];
 
 let activeStatus = 'all';
@@ -1540,8 +1568,8 @@ function buildChart() {
 function buildTopLocs() {
   const locs = [
     {name:'Library', pct:72},
-    {name:'Academic Block A', pct:58},
-    {name:'Cafeteria', pct:45},
+    {name:'Academic Block ', pct:58},
+    {name:'T-POINT', pct:45},
     {name:'Hostel Area', pct:31},
   ];
   document.getElementById('topLocs').innerHTML = locs.map(l=>`
